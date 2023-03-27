@@ -6,10 +6,8 @@ id = "a2i0H--bsDYqhFMFcXSk-tVykJleH_U2Qfz8RwhTujiofGGodRbk2DKOP6_eRg71"
 API_ID = "7280833"
 API_HASH = "faa0e3b6d30779426d833dec02ab70d9"
 TOKEN = "1969982366:AAHoE4d2bnRem_Ng8pL694z_jHQAXMJB6LA"
-proxy_url = 'socks5:104.248.158.27:25100'
+print("bot Started succes fully ❣❣❣♥")
 app = Client("tagremover", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
-
-
 
 
 
