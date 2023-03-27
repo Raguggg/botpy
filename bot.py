@@ -14,7 +14,7 @@ app = Client("tagremover", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 
 @app.on_message(filters.private & filters.text & filters.create(
-    lambda _, __, message: bool(re.match(r'^\+?\d{0,2}\s?\d{5}\s?\d{5}$', message.text.strip()))
+    lambda _, __, message: bool(re.match(r'^(\+91|91|\+91\s)?(\d{4}|\d{3})\s?\d{3}\s?\d{3}$', message.text.strip()))
 ))
 async def tag(client, message):
     a = search_phonenumber(str(message.text),"IN", id)
